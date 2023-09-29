@@ -1,0 +1,32 @@
+body {
+    font-family: Roboto;
+    font-size: 20pt;
+    font-weight: 800;
+    font-variant: oblique;
+    background-color: #0B943F;
+    color: #940700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Tourney";
+    font-size: 50pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color:#BBEDCE;
+    border: 3px solid #BBEDCE;
+    background-color: #E0655E;
+    text-align: center;
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align: center;
+}
