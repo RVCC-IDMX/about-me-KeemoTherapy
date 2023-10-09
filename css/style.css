@@ -7,10 +7,16 @@ body {
     color: #940700;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Tourney";
     text-align: center;
 }
+
 h1 {
     font-size: 50pt;
 }
@@ -19,15 +25,16 @@ header {
     text-align: center;
 }
 
-#hero, footer {
-    color:#BBEDCE;
+#hero,
+footer {
+    color: #BBEDCE;
     border: 3px solid #BBEDCE;
     background-color: #E0655E;
     text-align: center;
 }
 
 #hero img {
-    width:300px;
+    width: 300px;
 }
 
 #bio {
@@ -47,10 +54,31 @@ header {
 }
 
 #gallery img {
-    max-width:100%;
+    max-width: 100%;
 }
 
 #gallery figure {
     text-align: center;
-    font-weight: 300;
+    text-decoration: underline;
+}
+
+#lit {
+    border: 2px solid #BBEDCE;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lit div p::first-letter {
+    color: darkgreen;
+    font-size: 2em;
+    padding: 0.1em;
+    line-height: 2;
+    margin-right: 0.25em;
+    border: 2px solid violet;
 }
