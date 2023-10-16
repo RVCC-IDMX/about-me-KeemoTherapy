@@ -21,6 +21,10 @@ h1 {
     font-size: 50pt;
 }
 
+h2 {
+    margin: .1em;
+}
+
 header {
     text-align: center;
 }
@@ -39,6 +43,12 @@ footer {
 
 #bio {
     text-align: center;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #hobbies ul li:nth-child(even) {
@@ -81,4 +91,19 @@ footer {
     line-height: 2;
     margin-right: 0.25em;
     border: 2px solid violet;
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
 }
