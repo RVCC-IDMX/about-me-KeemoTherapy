@@ -93,7 +93,7 @@
                 <p>One of my many Super Smash Flash 2 World Records.</p>
             </div>
         </section>
-
+        
         <article id="lit">
 
             <h2>An Excerpt From Pride and Prejudice</h2>
@@ -125,6 +125,51 @@
 
             </div>
         </article>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            
+            <form action="/" method="post" data-netlify="true">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone (optional):</label>
+                    <input type="tel" id="phone" name="phone">
+                    
+                    <label for="phone-type">Phone Type:</label>
+                    <select id="phone-type" name="phone-type">
+                        <option value="home">Home</option>
+                        <option value="work">Work</option>
+                        <option value="mobile">Mobile</option>
+                    </select>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <fieldset>
+                        <legend>Do you want a follow-up?</legend>
+                        <ul>
+                            <li>
+                                <label for="follow-up-yes">Yes</label>
+                                <input type="radio" id="follow-up-yes" name="follow-up" value="yes">
+                            </li>
+                            <li>
+                                <label for="follow-up-no">No</label>
+                                <input type="radio" id="follow-up-no" name="follow-up" value="no">
+                            </li>
+                        </ul>
+                    </fieldset>
+                    
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>        
 
     </main>
 
