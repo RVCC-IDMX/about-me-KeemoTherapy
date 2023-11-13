@@ -103,19 +103,19 @@ footer {
     left: 0;
 }
 
-#lit {
+#blog {
     border: 2px solid #BBEDCE;
     margin-bottom: 2rem;
 }
 
-#lit div {
+#blog div {
     padding: 2rem;
     max-width: 40rem;
     margin: 0 auto;
     text-align: center;
 }
 
-#lit div p::first-letter {
+#blog div p::first-letter {
     color: darkgreen;
     font-size: 2em;
     padding: 0.1em;
@@ -142,7 +142,7 @@ footer {
         width: 100%;
     }
 
-    #lit div {
+    #blog div {
         max-width: 100%;
         columns: 20rem;
     }
