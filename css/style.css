@@ -59,6 +59,12 @@ footer {
     color: blueviolet
 }
 
+#hobbies img {
+    flex: auto;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
 #gallery {
     border: 2px solid #BBEDCE
 }
@@ -122,6 +128,68 @@ footer {
     line-height: 2;
     margin-right: 0.25em;
     border: 2px solid violet;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact li {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+input[type="radio"] {
+    margin-left: 8px;
+  }
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: #940700;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 @media screen and (min-width: 60em) {

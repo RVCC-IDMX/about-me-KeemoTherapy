@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="img/BOB.svg" alt="Blue origami logo">
+                <img src="img/KT.svg" alt="Keemo Therapy Initials">
                 <h1>Web Dev 1 - Online!</h1>
             </div>
             <div class="navbar-links">
@@ -44,11 +44,19 @@
         <section id="bio">
 
             <h2>Biography:</h2>
+            <!--I don't entirely know why I wrote this as a medieval warrior, but once I got the ball rolling, there was no stopping it.-->
 
             <div>
-                <p>I like watching anime and I dislike coding, though I do find all of Prof. Caruso's videos
-                    entertaining.</p>
-                <p>I noticed the Breath of the Wild cooking sound effects in a previous Prof. Caruso video :D</p>
+                <p>I'm an avid soul navigating the realms of passion and leisure.</p>
+                <p>Fueled by a love for the extraordinary, I find solace in the vibrant world of anime, relishing its
+                    kaleidoscopic narratives.</p>
+                <p>Gaming is my sanctuary, a realm where challenges are conquered and adventures unfold.</p>
+                <p>The rhythmic cadence of ping pong and the exhilaration of volleyball competitions set my spirit
+                    ablaze.</p>
+                <p>However, the bane of my existence is the looming specter of last-minute assignments, much like this
+                    one, a disdainful adversary I grapple with.</p>
+                <p>In the tapestry of my existence, the threads of enthusiasm weave seamlessly with the fabric of
+                    resistance, creating a mosaic of experiences that define me.</p>
             </div>
         </section>
 
@@ -63,6 +71,8 @@
                 <li>Card Games</li>
                 <li>Volleyball</li>
             </ul>
+
+            <img src="img/treemo.jpg" alt="Myself on a Tree at Bushkill Falls">
 
         </section>
 
@@ -113,29 +123,64 @@
 
             <div>
 
-                <p>“I begin to be sorry that he comes at all,” said Jane to her sister. “It would be nothing; I could
-                    see him with perfect indifference, but I can hardly bear to hear it thus perpetually talked of. My
-                    mother means well; but she does not know, no one can know, how much I suffer from what she says.
-                    Happy shall I be, when his stay at Netherfield is over!”</p>
+                <p>Cascading Style Sheets (CSS) empower web developers to transform the visual appeal of websites.
+                    Among the myriad properties at their disposal, background image properties play a pivotal role in
+                    crafting immersive and visually engaging user interfaces. This essay delves into the versatile
+                    aspects of CSS background properties, shedding light on their usage and impact on web design.</p>
 
-                <p>“I wish I could say anything to comfort you,” replied Elizabeth; “but it is wholly out of my power.
-                    You must feel it; and the usual satisfaction of preaching patience to a sufferer is denied me,
-                    because you have always so much.”</p>
+                <p>The repeat property allows developers to control how a background image repeats within its container.
+                    It accepts values such as repeat, repeat-x, repeat-y, and no-repeat. When set to repeat, the image
+                    repeats both horizontally and vertically, creating a seamless pattern. Alternatively, repeat-x and
+                    repeat-y limit repetition to the horizontal or vertical axis, respectively. The no-repeat value
+                    ensures that the image appears only once, preserving its original size.</p>
 
-                <p>Mr. Bingley arrived. Mrs. Bennet, through the assistance of servants, contrived to have the earliest
-                    tidings of it, that the period of anxiety and fretfulness on her side might be as long as it could.
-                    She counted the days that must intervene before their invitation could be sent; hopeless of seeing
-                    him before. But on the third morning after his arrival in Hertfordshire, she saw him, from her
-                    dressing-room window, enter the paddock and ride towards the house.</p>
+                <p>The size property enables developers to define the dimensions of the background image. It accepts
+                    values such as auto, cover, and contain. Setting it to auto maintains the image's intrinsic size.
+                    Cover ensures the image covers the entire container, potentially cropping parts of it to maintain
+                    aspect ratio. On the other hand, contain scales the image to fit the container while preserving its
+                    aspect ratio, ensuring the entire image is visible.</p>
 
-                <p>Her daughters were eagerly called to partake of her joy. Jane resolutely kept her place at the table;
-                    but Elizabeth, to satisfy her mother, went to the window--she looked,--she saw Mr. Darcy with him,
-                    and sat down again by her sister.</p>
+                <p>The position property determines where the background image starts within its container. Developers
+                    can specify values like keywords (top, bottom, left, right), percentages, or lengths. For instance,
+                    center center centers the image both horizontally and vertically, while left top positions it at the
+                    top-left corner. These values provide granular control over the placement of background images,
+                    facilitating creative and customized designs.</p>
 
-                <p>“There is a gentleman with him, mamma,” said Kitty; “who can it be?”</p>
+                <p>The origin property, often used in conjunction with background-size, defines the starting point for
+                    the background image's positioning. It accepts values such as padding-box, border-box, and
+                    content-box. When set to padding-box, the image originates from the padding edge, considering
+                    padding but not border. border-box includes both padding and border, while content-box restricts the
+                    origin to the content edge, excluding padding and border.</p>
 
-                <p>“Some acquaintance or other, my dear, I suppose; I am sure I do not know.”</p>
+                <p>The clip property, used with background-origin, refines how the background image is clipped
+                    concerning the box specified by background-origin. It accepts values like border-box, padding-box,
+                    and content-box. If set to border-box, the background image is clipped according to the entire box,
+                    including border. Choosing padding-box limits the clipping to the padding box, excluding the border.
+                    Content-box confines the clipping to the content box.</p>
 
+                <p> These properties synergize to create captivating visual experiences. Consider a
+                    scenario where a website features a hero section with a background image. By using the
+                    background-size: cover; property, the image can dynamically adapt to different screen sizes,
+                    ensuring it covers the entire viewport. Additionally, adjusting the background-position property can
+                    fine-tune the focal point of the image, ensuring crucial elements remain visible on various devices.
+                </p>
+
+                <p>Furthermore, the background-repeat property proves invaluable in crafting seamless patterns for
+                    backgrounds, especially in the context of tiled textures or gradients. A background with
+                    background-repeat: repeat-x; might be employed to create a horizontally repeating pattern, adding a
+                    subtle aesthetic touch to a website's design. This flexibility in repetition provides designers with
+                    the tools to balance visual appeal and performance optimization.</p>
+
+                <p>Interplay between background-origin and background-clip is crucial for managing how background
+                    images interact with the box model. For instance, when constructing a card component with a distinct
+                    background, setting background-origin: content-box; and background-clip: padding-box; ensures that
+                    the background is confined to the content area, maintaining a clean and polished appearance.</p>
+
+                <p>The diverse background image properties in CSS empower developers to sculpt the visual
+                    identity of web pages. The ability to control repetition, size, position, origin, and clipping
+                    provides a rich toolkit for creating aesthetically pleasing and responsive designs. As the digital
+                    landscape continues to evolve, understanding and harnessing these CSS background properties will
+                    remain instrumental in crafting engaging and user-friendly web experiences.</p>
             </div>
         </article>
 
@@ -190,7 +235,8 @@
 
     <footer>
 
-        © 2023 Hakeem Haj-Ibrahim
+        <p>https://github.com/RVCC-IDMX/about-me-KeemoTherapy</p>
+        <p>© 2023 Hakeem Haj-Ibrahim</p>
 
     </footer>
 </body>
